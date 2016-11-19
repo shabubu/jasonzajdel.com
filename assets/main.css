@@ -1,3 +1,23 @@
-h1 {
-  color:red;
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color:#fff;
+  font-family: "Cormorant Garamond", serif;
+  overflow:hidden;
+}
+
+section.main {
+  margin: 20vh 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+section.main .info img{
+  border: solid 2px;
+  border-radius: 50px;
+  width:300px;
 }
