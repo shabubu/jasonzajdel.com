@@ -4,10 +4,10 @@ body {
   color:#cac8c7;
   font-family: "Cormorant Garamond", serif;
   text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+   -2px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 2px 0 #000,
+     2px 2px 0 #000;
 }
 
 section.main {
@@ -22,4 +22,21 @@ section.main .info img{
   border-radius: 50px;
   border-color: #000;
   width:300px;
+}
+
+ul.socialLinks{
+  padding-left: 0;
+}
+
+ul.socialLinks img{
+  width: 50px;
+}
+
+ul.socialLinks li{
+  display:inline;
+  margin-left: 15px;
+}
+
+ul.socialLinks li:first-child{
+  margin-left: 0;
 }
